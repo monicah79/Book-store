@@ -6,7 +6,7 @@ const Input = () => (
     <div>
       <form>
         <input type="text" name="title" placeholder="Book Title" />
-        <input type="text" name="author" placeholder="Category" />
+        <input type="text" name="category" placeholder="Category" />
         <button type="submit">Add Book </button>
       </form>
     </div>

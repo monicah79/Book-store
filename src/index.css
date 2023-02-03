@@ -1,3 +1,16 @@
-input {
-  gap: 40px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bk {
+  font-weight: 700;
+  font-size: 20px;
+  list-style: none;
+}
+
+.btn-categories {
+  font-size: 20px;
+  font-weight: 900;
 }
