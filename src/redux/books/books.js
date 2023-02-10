@@ -1,11 +1,9 @@
+import { v4 as uuidv4 } from 'uuid';
+
 const ADD_BOOK = 'book-store/books/ADD_BOOK';
 const REMOVE_BOOK = 'book-store/books/REMOVE_BOOK';
 
-const initialState = [
-  { title: 'Hunger Game', author: 'Suzanne Collins', id: 1 },
-  { title: 'Duke', author: 'Franks Haywards', id: 2 },
-  { title: 'Capital in the 20 century', author: 'Suzanne Collins', id: 3 },
-];
+const initialState = [];
 
 const bookReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -22,7 +20,7 @@ export function addBook(book) {
   return {
     type: ADD_BOOK,
     payload: {
-      id: book.id,
+      id: uuidv4(),
       title: book.title,
       author: book.author,
     },
