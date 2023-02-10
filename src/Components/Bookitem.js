@@ -13,8 +13,8 @@ const Bookitems = (props) => {
   };
   return (
     <div className="book-items">
-      <li className="bk">{title}</li>
-      <li className="bk-2">{author}</li>
+      <h3 className="bk">{title}</h3>
+      <h4 className="bk-2">{author}</h4>
       <button type="button" onClick={handleRemoveClick}>Remove</button>
     </div>
   );

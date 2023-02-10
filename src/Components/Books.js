@@ -8,7 +8,7 @@ const Books = () => {
 
   return (
     <div className="the-container">
-      {books.map((bk) => <Bookitems key={bk.id} title={bk.title} author={bk.author} />)}
+      {books.map((bk) => <Bookitems key={bk.id} id={bk.id} title={bk.title} author={bk.author} />)}
 
       <Input />
     </div>
