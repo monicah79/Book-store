@@ -38,9 +38,7 @@
 
 # 📖 [Book-store] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Book-store-project]** is a react project basically just asetup component initialisation of the bookstore app
+**[Book-store-project]** is a react project basically  asetup component initialisation of the bookstore app and using redux with react components
 
 ## 🛠 Built With <a name="built-with"></a>
 React
