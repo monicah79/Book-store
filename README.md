@@ -86,9 +86,8 @@ Html
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://moniq-bookstore.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
