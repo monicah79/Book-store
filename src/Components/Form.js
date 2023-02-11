@@ -4,12 +4,14 @@ import { useDispatch } from 'react-redux';
 import { addBook } from '../redux/books/books';
 
 const Input = () => {
-  const [form, setInput] = useState({ id: '', title: '', author: '' });
+  const [form, setInput] = useState({
+    id: '', title: '', author: '', category: '',
+  });
 
   const handleDataChange = (event) => {
     setInput({
       ...form,
-      id: uuidv4(),
+      item_id: uuidv4(),
       [event.target.name]: event.target.value,
     });
   };
@@ -19,7 +21,9 @@ const Input = () => {
   const onSubmitHandler = (e) => {
     e.preventDefault();
     dispatch(addBook(form));
-    setInput({ id: '', title: '', author: '' });
+    setInput({
+      id: '', title: '', author: '', category: '',
+    });
   };
   return (
     <div className="add-bk">
