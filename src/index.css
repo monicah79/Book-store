@@ -1,16 +1,163 @@
-.header {
-  display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Roboto+Slab:wght@300;700&display=swap');
+
+.header-top {
   justify-content: space-between;
+  display: flex;
   align-items: center;
 }
 
-.bk {
-  font-weight: 700;
-  font-size: 20px;
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header h1 {
+  color: #4386bf;
+  margin: 20px;
+  padding: 20px;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+}
+
+.header li {
   list-style: none;
 }
 
-.btn-categories {
+.img {
+  width: 35px;
+  padding-right: 20px;
+}
+
+.book-items {
+  width: 75rem;
+  height: 10.625rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+  display: flex;
+  gap: 30%;
+  margin: 10px;
+}
+
+.bk {
   font-size: 20px;
-  font-weight: 900;
+  color: var(--black-two);
+  font-family: RobotoSlab, sans-serif;
+  padding-left: 40px;
+}
+
+.bk-2 {
+  font-size: 14px;
+  font-family: RobotoSlab, sans-serif;
+  color: #4386bf;
+  letter-spacing: normal;
+  font-weight: 300;
+  padding-left: 40px;
+}
+
+.remove-btn {
+  gap: 20px;
+  color: #4386bf;
+  padding-right: 20px;
+  border: none;
+  background-color: #fff;
+  border-left: 1px solid #e5e5e5;
+  letter-spacing: normal;
+  font-weight: 300;
+  padding-left: 40px;
+}
+
+.add-bk {
+  align-items: center;
+}
+
+.add-h2 {
+  margin: 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #888;
+  letter-spacing: -0.18px;
+  font-family: Montserrat, sans-serif;
+}
+
+.form-sctn {
+  display: flex;
+  gap: 32px;
+}
+
+.input {
+  background-color: rgb(255, 255, 255);
+  font-size: 1rem;
+  letter-spacing: -0.15px;
+  color: rgb(18, 18, 18);
+  padding: 12px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(232, 232, 232);
+  border-image: initial;
+  width: 35%;
+  font-weight: normal;
+  outline: none;
+  margin: 20px;
+}
+
+.input:nth-child(2) {
+  width: 30%;
+}
+
+.submit-btn {
+  background-color: #4386bf;
+  color: #fff;
+  border-radius: 3px;
+  padding: 12px 40px;
+  border: none;
+  width: 18%;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Oval-2 {
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: rgb(48, 123, 190) rgb(48, 123, 190) rgb(48, 123, 190) rgb(232, 232, 232);
+  width: 4.25rem;
+  height: 4.25rem;
+  transform: rotate(45deg);
+  border-width: 5px;
+}
+
+.completed {
+  display: flex;
+  border-right: 1px solid #888;
+  padding-right: 20px;
+  gap: 5px;
+}
+
+.completed-p {
+  color: #888;
+}
+
+.chapter {
+  padding-left: 20px;
+}
+
+.progress-h2 {
+  color: #888;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.progress-btn {
+  background-color: #4386bf;
+  padding: 5px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
 }
