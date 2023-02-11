@@ -27,12 +27,12 @@ const Input = () => {
   };
   return (
     <div className="add-bk">
-      <h2>ADD NEW BOOK</h2>
+      <h2 className="add-h2">ADD NEW BOOK</h2>
       <div>
-        <form onSubmit={onSubmitHandler}>
-          <input type="text" name="title" value={form.title} onChange={handleDataChange} placeholder="Book Title" />
-          <input type="text" name="author" value={form.author} onChange={handleDataChange} placeholder="author name" />
-          <button type="submit">Add Book </button>
+        <form className="form-sectn" onSubmit={onSubmitHandler}>
+          <input className="input" type="text" name="title" value={form.title} onChange={handleDataChange} placeholder="Book Title" />
+          <input className="input" type="text" name="author" value={form.author} onChange={handleDataChange} placeholder="author name" />
+          <button className="submit-btn" type="submit">Add Book </button>
         </form>
       </div>
     </div>
